@@ -1,0 +1,98 @@
+body {
+  font-family: 'Helvetica';
+}
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.row.center {
+  align-items: center;
+}
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.block {
+  background-color: rgb(254, 196, 2);
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.blockHeader{
+  background-image: url("https://t3.ftcdn.net/jpg/04/89/81/42/360_F_489814228_EnyCtxDoQxgpD0Zv7B9FCPBh3eL3M4yx.jpg");
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.blockShoppingCard{
+  /* background-image: url("https://c8.alamy.com/comp/DWXM54/a-group-of-fifty-various-lego-mini-figures-of-the-past-and-present-DWXM54.jpg"); */
+  background-color: #faf6f6;
+  background-position: center;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border-color: #404040;
+  height:auto; 
+}
+.blockNav{
+  /* background-image: url("https://c8.alamy.com/comp/DWXM54/a-group-of-fifty-various-lego-mini-figures-of-the-past-and-present-DWXM54.jpg"); */
+  background-color: #faf6f6;
+  background-position: center;
+  padding: 1rem;
+  margin: 0.5rem;
+  margin-bottom: 1.2%;
+  border-radius: 0.5rem;
+  border-color: #404040;
+  height:auto; 
+  font-size: 20px;
+}
+.text-right {
+  text-align: right;
+}
+img.small {
+  max-height: 10rem;
+}
+button {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #404040 solid;
+  background-color: #ec3630;
+  width: 80%;
+  cursor: pointer;
+  color: #ffffff;
+}
+button.add {
+  background-color: #40c0f0;
+  width: 1.5rem;
+}
+button.remove {
+  background-color: #f04040;
+  width: 1.5rem;
+}
+button.badge {
+  background-color: #f04040;
+  border: none;
+  color: #ffffff;
+  width: 1.5rem;
+}
