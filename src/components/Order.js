@@ -80,18 +80,21 @@ export default function Order(props) {
             ))}
             {order.Order}
           </ul> */}
-          <h2><strong>TotalPrice: </strong><span style={{color: 'orange'}}>$</span>{order.TotalPrice.toFixed(2)}</h2>
+          <h2 style={{marginTop:'1%',marginBottom:'1%'}}><strong>TotalPrice: </strong><span style={{color: 'orange'}}>$</span>{order.TotalPrice.toFixed(2)}</h2>
           <div className='row'>
             {/* <div className='col-6'> */}
-          <h2><strong>Credit Card Number:</strong> {order.CardNumber}  &emsp;            Payment Date: {order.Date}</h2>
+          <h2><strong>Credit Card Number:</strong> {order.CardNumber}  &emsp;            <strong>Payment Date: </strong>{order.Date}</h2>
              {/* </div> */}
              {/* <div className='col-6'>
           <h2>Payment Date: {order.Date}</h2>
              </div> */}
           </div>
+          <div className='bill'>
           <h2><strong>Billing address:</strong></h2>
           <h2>{order.FirstName} {order.LastName}</h2>
-          <h2>{order.Address} {order.City} {order.ZipCode}</h2>
+          <h2>{order.Address}, {order.City}, {order.ZipCode}</h2>
+          </div>
+          <h2 style={{marginTop:'1%'}}><strong>Order Status: </strong><span style={{color: 'red'}}>Not Shipped</span></h2>
           <button
             type="button"
             style={{marginTop: '1%', marginLeft:'0%', width:'50%'}}
